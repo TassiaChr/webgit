@@ -1,0 +1,18 @@
+body{
+    background-color: grey;
+}
+
+.aueb-logo{
+    width: 800px; 
+    height: auto;
+}
+
+#auebΤext{
+    color: white;
+    background-color: black;
+}
+
+h1.aueb-text{
+    color: green;
+    background-color: brown;
+}

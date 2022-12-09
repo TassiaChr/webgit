@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    transform-origin: right bottom;
+    transition: transform 2s ease-in;
+}
+
+.box1:hover {
+    /* transform: scale(3); */
+    /*ginetai 3plasio to kouti*/
+    /* transform: rotate(180deg); */
+    /* transform: translate(20px, 80px); */
+    /* transform: skewX(20deg); */
+    /* strevlwsh, dhladh gernei to sxhma */
+    transform: scale(3) rotate(180deg) skewX(-90deg) translate(0px, 300px);
+}
+

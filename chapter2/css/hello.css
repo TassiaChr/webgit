@@ -1,0 +1,18 @@
+p{
+    color: red;
+    background-color: black;
+}
+/**αυτο δεν θα ισχύσει*/
+
+body{
+    background-color: grey;
+}
+
+p , li{
+    color: black ;
+    background-color: blue;
+}
+
+li{
+    list-style-type: square;
+}

@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    border: 1px solid black;
+    /**flex-wrap: wrap;*/
+}
+
+div[class^="box"] {
+    width: 80px;
+    height: 100px;
+    margin: 0 0;
+    background-color: aquamarine;
+    font-size: 3rem;
+    flex: 1;
+}
+
+.box1 {
+    /* order: 5; */
+    align-self: flex-start;
+    flex: 1;  /* kaluptei ton endiameso xoro ton koution*/
+}
+
+.box5 {
+    /* order: -1; */
+    align-self: flex-end;
+}

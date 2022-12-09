@@ -1,0 +1,15 @@
+ul > li{
+    color: blue;
+}
+
+ul strong{
+    background-color: grey;
+}
+
+ul em{
+    background-color: burlywood;
+}
+
+h1 + p{
+    background-color: blueviolet;
+}

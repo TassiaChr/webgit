@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Φόρμα Πληρωμής</title>
+</head>
+<body>
+
+    <form>
+
+        <h2>Φόρμα Πληρωμής</h2>
+        <h5>Τα υποχρεωτικά πεδία ακολουθούνται από <abbr title="Required field">*</abbr>.</h5>
+
+
+        <h3>Προσωπικά Στοιχεία</h3>
+
+        <fieldset style="width: 150px;"> 
+            <legend>Title</legend>
+
+            <div>
+                <label for="mr">Mr.</label>
+                <input type="radio" name="title" id="mr" value="Mr.">
+            </div>
+
+
+            <div>
+                <label for="mrs">Mrs.</label>
+                <input type="radio" name="title" id="mrs" value="Mrs.">
+            </div>  
+
+            
+            <div>
+                <label for="dr">Dr.</label>
+                <input type="radio" name="title" id="dr" value="Dr." checked>
+            </div>
+
+        </fieldset>
+
+
+        <div>
+            <label for="name">Name:<abbr title="Required field">*</abbr></label>
+            <input type="text" name="name" id="name" required>
+        </div>
+
+
+        <div>
+            <label for="email">E-mail:<abbr title="Required field">*</abbr></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+
+        <div>
+            <label for="password">Password:<abbr title="Required field">*</abbr></label>
+            <input type="password" name="password" id="password" minlength="8" required>
+        </div>
+
+
+
+        <h3>Πληροφορίες Πληρωμής</h3>
+
+        <div>
+            <label for="card-type">Card Type:</label>
+
+            <select name="card-type" id="card-type">
+
+                <option value="1">Visa</option>
+                <option value="2">Mastercard</option>
+
+            </select>
+        </div>
+
+
+        <div>
+            <label for="cardnumber">Card number:<abbr title="Required field">*</abbr></label>
+            <input type="text" name="cardnumber" id="cardnumber" 
+            pattern="^[0-9999]{4}$" maxlength="16" required>
+        </div>
+
+
+        <div>
+            <label for="exp-date">Expiration Date:<abbr title="Required field">*</abbr></label>
+            <input type="text" name="exp-date" id="exp-date" placeholder="MM/YY" 
+            pattern="^[1-9]|1[0-2]\/[0-9]{2}$" maxlength="4" required >
+        </div>
+
+
+        <br><br>
+        
+        <div>
+            <input type="submit" value="Προχωρήστε στην πληρωμή">
+        </div>
+
+
+    </form>
+
+    
+</body>
+</html>

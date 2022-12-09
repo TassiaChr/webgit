@@ -1,0 +1,11 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: red;
+    text-align: justify;
+}
+
+p{
+    font-family: inherit;
+} σε περίπτωση που δεν ξέρω αν κληρονομείται σίγουρα
+το κάνω με ρητό inherit

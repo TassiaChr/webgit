@@ -1,0 +1,5 @@
+.gradient-to-right {
+    width: 800px;
+    height: 200px;
+    background-image: linear-gradient(to right, green, red);
+}

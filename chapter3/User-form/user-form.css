@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.outer {
+    width: 30%;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: #762124;
+}
+
+.inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 15px 50px 35px;
+    background-color: white;
+    border: 4px solid cornflowerblue;
+    border-radius: 20px;
+}
+
+.gap-bottom {
+    margin-bottom: 15px;
+}
+
+.login {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.input {
+    display: flex;
+    padding: 15px 20px 15px 30px;
+    border: 1.5px solid black;
+    border-radius: 15px;    
+}
+
+.email {
+    margin-bottom: -15px;
+}
+
+img{
+    width: auto;
+    height: 25px;
+    margin-bottom: -40px;
+    padding-left: 2px;
+}
+
+.login-btn{
+    padding: 15px 60px 15px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    background-color: rgb(142, 200, 240);
+}
+
+.account-text, .account-link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.95rem;
+}

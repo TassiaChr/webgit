@@ -1,0 +1,10 @@
+body {
+    background-color: green;
+}
+
+@media all {
+    body {
+        background-color: green;
+    }
+}
+/* de xreiazetai giati einai idio me thn prwth entolh */
